@@ -37,15 +37,18 @@ function constFunc() {
 constFunc();
 
 //Data types
-var a = 50;        //---- Number 
+var a = 50; //---- Number
 console.log(typeof a);
 var b = "Abinaya"; //---- String
 console.log(typeof b);
-var c = false;   - //---- Boolean
-console.log(typeof c);
-var d = null;      //---- Null
+var c = false;
+-(
+  //---- Boolean
+  console.log(typeof c)
+);
+var d = null; //---- Null
 console.log(typeof d);
-var e;             //---- Undefined
+var e; //---- Undefined
 console.log(typeof e);
 
 //Synchronous
@@ -60,9 +63,9 @@ synchronousFunc();
 function asynchronousFunc() {
   console.log("welcome");
   function play() {
-    console.log("guys"); 
+    console.log("guys");
   }
-  setTimeout(play, 3000); 
+  setTimeout(play, 3000);
   console.log("everyone");
   console.log("hi");
 }
